@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+main{
+    margin: 0 auto;
+}
+#imghover {
+    display: flex;
+   
+  }
+
+#imghover:hover {
+    cursor: pointer; 
+    --webkit-filter: brightness(70%);
+}
+
+#icon {
+    display: flex;
+}
+
+#icon:hover {
+    cursor: pointer;
+}
+
+header {
+    background-color:white;
+    width: 100vw;
+    padding: 23px;
+    height: 2vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    margin-left: 25px;
+    position: fixed;
+}
+
+
+.menu{
+font-family: 'Lato', sans-serif;    
+width: 40vw;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+font-weight: 600;
+letter-spacing: 2px;
+margin-left: 35vh;
+margin-top: 10vh;
+font-size: 14px;
+        
+}
+li{
+list-style-type: none;
+align-items: center;
+}
+.headerline1{
+    color: tomato;
+
+}
+
+
+.headerline {
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 14px; 
+color: black;
+font-family: 'Lato', sans-serif;
+   
+}   
+   
+.headerline:hover {
+     color:tomato;
+     cursor:pointer;
+}
+.phonebox {
+    width: 160px;
+    height: 23px;
+    background: black;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 78px;
+    margin-left: 80vw;
+}
+#foto{
+    background-color: rgb(244, 236, 225);
+    align-self: center; left: 0; right: 0;
+    height:112px;
+    width:83px;
+    
+}
+
+
+.headertxt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 23px; 
+    letter-spacing: 0.2em;
+}
+
+.titles {
+    font-family: 'Amatic Sc', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    
+}
+
+.amatictxt {
+    font-family: 'Amatic Sc', sans-serif;
+    font-size: 60px;
+
+}
+
+
+.montetxt {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #000;; 
+    font-size: 13px;
+    line-height: 4vh;
+    letter-spacing: 0.1em; 
+    text-align: justify;
+    margin-left: 15%;
+}    
+
+.passeiotxt {
+    font-family: 'Amatic Sc', sans-serif;
+    font-size: 40px;
+    line-height: 1,33em;
+}
+
+.linha {
+    height: 1.5px;
+    width: 250px;
+    background-color: white;
+
+}
+
+.verticalright {
+  height: 100%; 
+  width: 140px; 
+  position: fixed; 
+  z-index: 0; 
+  top: 0; 
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-left: 96.5%;
+}
+
+.verticalrightitems {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.firstbox {
+    border-color: rgb(244, 236, 225);
+    width: 93%;
+    height: 650px; 
+    background-color: rgb(244, 236, 225);
+    margin-left: 4%;
+    margin-right: 20%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.secondboxes {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.whobx {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    align-items: center;
+    padding: 30%;
+    display:flex;
+    
+
+}
+
+.passeiobox {
+    width: 380px;
+    height: 380px;
+    background-color: rgb(244, 236, 225); 
+    display: flex; 
+    flex-direction: column;
+    align-items: center
+
+}
+
+.dogboxes{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.contact-box {
+    border-color: rgb(244, 236, 225);
+    width: 93%;
+    height: 350px; 
+    background-color: rgb(244, 236, 225);
+    margin-left: 5.5%;
+    margin-right: 20%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    
+}
+
+input {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+.inputwhite {
+    border-style: none;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    padding: 15px; 
+    width: 160px; 
+    height: 45px;
+
+}
+
+.inputwhite:hover {
+    --webkit-filter: brightness(90%);
+}
+
+
+.input-header {
+    border-style: none;
+    background-color: rgb(255, 118, 72);
+    border-radius: 25px;
+    color: white;
+    padding: 15px; 
+    width: 230px; 
+    height: 53px;
+    
+
+
+}
+
+.inputbutton {
+    border-style: none;
+    background-color: rgb(255, 118, 72);
+    border-radius: 25px;
+    color: white;
+    padding: 15px; 
+    width: 160px; 
+    height: 45px;
+
+}
+
+.inputsquare {
+    border-style: none;
+    background-color: rgb(255, 118, 72);
+    color: white;
+    padding: 15px; 
+    width: 160px; 
+    height: 45px;
+}
+
+.inputbutton:hover {
+    color: black; 
+    cursor: pointer;
+}
+
+.inputwhite:hover {
+    color: black; 
+    cursor: pointer;
+}
+
+.input-send:hover {
+    color: black; 
+    cursor: pointer;
+}
+
+.input-header:hover {
+    color: black; 
+    cursor: pointer;
+}
+
+
+.inputflex {
+    display: flex;
+
+}
+
+.inputbox {
+    border-style: none;
+    width: 330px;
+    height: 25px;
+
+}
+
+.inputmsg {
+    border-style: none;
+    width: 330px;
+    height: 150px;
+
+}
+
+.sidefooter {
+    position: fixed;
+    background-color: rgb(244, 236, 225);
+    padding: 2.5;
+    width: 14%;
+    height: 50px;
+    top: 88%;
+    margin-left: 84%;
+    display: flex;
+    align-items: center;
+    font-family: 'Amatic Sc', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+    
+
+}
+
+.footer {
+    background-color: black;
+    padding: 0.2%;
+    width: 86%;
+    margin-left: 5.5%;
+    margin-right: 20%;
+    top: 100;
+   
+
+}
+
+.footertxt {
+    color: lightgrey;
+    display: flex; 
+    font-size: 12px;
+}
+
+.footeralign {
+    display: flex; 
+    flex-direction: row;
+}
+i{
+    display:inline;
+    width: 40px;
+    font-size: 10px;
+    color: #ffff;
+} 
